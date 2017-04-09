@@ -20,3 +20,5 @@ if (!in_array($lang, ['fr_FR', 'en_US', 'es_ES'], true)) {
     $lang = '';
 }
 
+// on renvoit à la page mise_a_jour.php (là d'ou on vient)
+echo "<a href=\"mise_a_jour.php?etape=3&version=$version&lang=$lang\">upgrade_from_v1.9  OK</a><br>\n";
